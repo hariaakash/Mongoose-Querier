@@ -1,0 +1,23 @@
+{
+  "name": "mongoose-query-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hariaakash/Mongoose-Query-Helper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hariaakash/Mongoose-Query-Helper/issues"
+  },
+  "homepage": "https://github.com/hariaakash/Mongoose-Query-Helper#readme",
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "lodash.set": "^4.3.2"
+  }
+}
