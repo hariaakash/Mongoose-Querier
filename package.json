@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-query-helper",
+  "name": "mongoose-querier",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
