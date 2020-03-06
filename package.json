@@ -1,7 +1,7 @@
 {
   "name": "mongoose-querier",
   "version": "1.0.2",
-  "description": "",
+  "description": "Easy to use Mongoose plugin which helps in querying Schema and supports pagination, filters, selection, searching, sorting.",
   "main": "index.js",
   "repository": {
     "type": "git",
