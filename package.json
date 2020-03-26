@@ -8,7 +8,7 @@
     "url": "git+https://github.com/hariaakash/Mongoose-Query-Helper.git"
   },
   "scripts": {
-    "docs": "jsdoc -c .jsdoc.json",
+    "docs": "jsdoc -R README.md -c .jsdoc.json",
     "fix-dry": "./node_modules/eslint/bin/eslint.js .",
     "fix": "./node_modules/eslint/bin/eslint.js . --fix"
   },
