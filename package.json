@@ -2,19 +2,31 @@
   "name": "mongoose-querier",
   "version": "1.0.2",
   "description": "Easy to use Mongoose plugin which helps in querying Schema and supports pagination, filters, selection, searching, sorting.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hariaakash/Mongoose-Query-Helper.git"
   },
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "docs": "jsdoc -c .jsdoc.json",
+    "fix-dry": "./node_modules/eslint/bin/eslint.js .",
+    "fix": "./node_modules/eslint/bin/eslint.js . --fix"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "lodash.set": "^4.3.2"
+  },
+  "devDependencies": {
+    "better-docs": "^1.4.7",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jsdoc": "^3.6.3"
+  },
   "bugs": {
     "url": "https://github.com/hariaakash/Mongoose-Query-Helper/issues"
   },
   "homepage": "https://github.com/hariaakash/Mongoose-Query-Helper#readme",
-  "dependencies": {
-    "lodash.get": "^4.4.2",
-    "lodash.set": "^4.3.2"
-  }
+  "author": "",
+  "license": "ISC"
 }
