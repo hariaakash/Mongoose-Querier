@@ -95,7 +95,7 @@ await Querier([schema], [data], [populate], [defaultQuery]);
 [
     { type: 'match', key: 'author', data: 'ObjectId' },
     { type: 'multi', key: 'genre', data: ['Fantasy', 'Horror'] },
-    { type: 'multi', key: 'publishDate', data: { from: 'date', to: 'date' } },
+    { type: 'date', key: 'publishDate', data: { from: 'date', to: 'date' } },
 ]
 ```
 ### License
